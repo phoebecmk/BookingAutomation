@@ -1,3 +1,3 @@
 # BookingAutomation
 
-The intention of this is to help learners book driving exam during the current exam backlog in Canada because of COVID. 
+The intention of this is to help learners book driving exam which is currently in backlog in Canada because of COVID. 
