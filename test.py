@@ -14,11 +14,11 @@ from selenium.webdriver.chrome.options import Options
 
 import pandas as pd
 
-Email = 'phoebecmk.0115@gmail.com' 
-LicenseNum = 'C35876286975115'
-ExpiryDate = '20220914'
+Email = '' 
+LicenseNum = ''
+ExpiryDate = ''
 #input desired exam center code here
-locations = "9574"
+locations = ""
 month = ['JULY 2021','AUGUST 2021','SEPTEMBER 2021']
 MaxMonthAhead = 4
 #chrome operate in headless mode
@@ -28,7 +28,7 @@ options.headless = False
 result = {k: [] for k in month}
 maxrun = 5
 count = 0
-driver = webdriver.Chrome('C:/Users/phoebecmk/anaconda3/pkgs/python-chromedriver-binary-90.0.4430.24.0-py38haa244fe_0/Lib/site-packages/chromedriver_binary/chromedriver.exe', chrome_options=options)
+driver = webdriver.Chrome('C:/.../chromedriver.exe', chrome_options=options)
 action = ActionChains(driver)
 
 while count <= maxrun:
